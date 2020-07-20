@@ -1,2 +1,2 @@
-# QuickStart
-Quick Start to Webpack Typescript React Project
+# CAN Website
+CAN Website of YunenWu lab based on Webpack Typescript React Project
