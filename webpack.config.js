@@ -18,7 +18,9 @@ module.exports={
     resolve:{
         modules:["node_modules"],
         alias:{
-            comp_path:path.resolve(__dirname,'src/component')
+            '@component':path.resolve(__dirname,'src/component'),
+            '@images':path.resolve(__dirname,'src/images'),
+            '@css':path.resolve(__dirname,'src/css')
         },
         extensions:['.ts','.tsx','.js','.json']
     },

@@ -1,10 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import {Hello} from "../../component/hello"
+import Header from '@component/header';
+import Navigation from '@component/navigation';
+import './index.css'
+
+class MainPage extends React.Component{
+    constructor(props:any){
+        super(props);
+    }
+    render()
+    {
+        return <>
+            <Header />  
+            <Navigation />
+        </>
+    }
+
+}
 
 ReactDOM.render(
-    <Hello compiler='Typescript' framework="React" />,
-    document.getElementById("example")
+    <MainPage />,
+    document.getElementById("blank")
 );
 
