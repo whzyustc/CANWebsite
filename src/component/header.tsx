@@ -1,6 +1,10 @@
 import React from "react"
 import  "@css/header.css"
 import  Logo from "@images/logo.png"
+
+interface IProps{
+    headerwidth:number;
+}
 export default class Header extends React.Component{
     constructor(props:any){
         super(props);
