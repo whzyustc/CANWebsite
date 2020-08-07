@@ -21,6 +21,6 @@ class MainPage extends React.Component{
 
 ReactDOM.render(
     <MainPage />,
-    document.getElementById("blank")
+    document.getElementById("contain")
 );
 

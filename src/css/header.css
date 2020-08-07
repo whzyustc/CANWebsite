@@ -1,4 +1,9 @@
-#USTClogo{
-    width: 50vw;
-    height: auto;
+@media screen and (min-width: 960px){
+
+    #USTClogo{
+        width: 50vw;
+        height: auto;
+    }
+
+    
 }

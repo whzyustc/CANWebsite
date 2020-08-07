@@ -11,7 +11,7 @@ export default class Header extends React.Component{
     }
     render(){
         return <header>
-            <img src={Logo} alt="USTC logo"/>
+            <img src={Logo} id="USTClogo" alt="USTC logo"/>
             <h1>Center of Advanced Nanocatalysis</h1>
         </header>
     }
