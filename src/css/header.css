@@ -1,9 +1,24 @@
-@media screen and (min-width: 960px){
 
     #USTClogo{
         width: 50vw;
         height: auto;
     }
 
-    
+@media screen and (max-width: 960px){
+
+    #USTClogo{
+        width: 50vw;
+        height: auto;
+    }
+
+
+}
+@media screen and (max-width: 480px){
+
+    #USTClogo{
+        width: 100vw;
+        height: auto;
+    }
+
+
 }

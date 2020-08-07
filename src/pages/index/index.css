@@ -17,5 +17,8 @@
 
 @media screen and (max-width:480px)
 {
-     
+     #contain{
+         margin: auto;
+     }
+
 }
