@@ -12,7 +12,7 @@ export default class Header extends React.Component{
     render(){
         return <header>
             <img src={Logo} id="USTClogo" alt="USTC logo"/>
-            <h1>Center of Advanced Nanocatalysis</h1>
+            <div id="CANtitle"><h1>Center of Advanced Nanocatalysis</h1></div>
         </header>
     }
 }

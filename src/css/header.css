@@ -1,24 +1,37 @@
 
     #USTClogo{
-        width: 50vw;
+        width: 50%;
         height: auto;
+        float: left;
     }
 
-@media screen and (max-width: 960px){
-
-    #USTClogo{
-        width: 50vw;
-        height: auto;
+    #CANtitle{
+        width: 50%;
+        float: left;
     }
-
-
-}
-@media screen and (max-width: 480px){
-
-    #USTClogo{
-        width: 100vw;
-        height: auto;
+    @media screen and (max-width: 1020px){
+    
+        #USTClogo{
+            width: 50%;
+            height: auto;
+        }
+        
+    #CANtitle{
+        width: 50%;
+        float: left;
     }
+    }
+    @media screen and (max-width: 640px){
 
-
-}
+        #USTClogo{
+            width: 100%;
+            height: auto;
+        }
+        
+        #CANtitle{
+            width: 100%;
+            float: left;
+        }
+    
+    
+    }
