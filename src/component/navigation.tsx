@@ -1,5 +1,5 @@
 import React from "react"
-
+import '@css/nav.css'
 let menuTitles=['homepage','focus','publications','members','facilites','album'];
 let menuLinks=['index.html','focus.html','publications.html','members.html','facilites.html','album.html']
 

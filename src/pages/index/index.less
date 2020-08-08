@@ -1,0 +1,55 @@
+.clearfloat()
+{
+    
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+@media screen{
+    
+    body{
+        margin: 0;
+        background-color: rgb(203, 255, 238);
+        font-size: 16px;
+    }
+
+        #contain{
+            background-color: aliceblue;
+            margin: auto;
+            width: 1020px;
+        }
+        header{
+            //overflow: auto;
+            margin: 0 0 1em 0;
+            &:after {
+                .clearfloat()
+            }
+        }
+        nav{
+            margin: 0 5% 1em 5%;
+            &:after {
+                .clearfloat()
+            }
+            
+        }
+    @media (max-width:1020px){
+
+        #contain{
+            margin: auto;
+            width: 100vw;
+        }
+        header{
+            margin: 0 0 1em 0;
+        }
+
+        @media (max-width:640px) {
+
+            #contain{
+                margin:atuo;
+                width: 100vw;
+            }
+        }
+    }
+}

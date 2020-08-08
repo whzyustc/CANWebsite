@@ -1,0 +1,40 @@
+@media screen {
+    #menu{
+        width:100%;
+        font-size: 12px;
+        height: 3em;
+        
+        li{
+            list-style: none;
+            float: left;
+
+            display: block;
+            float: left;
+            height: 3em;
+            width: 12em;
+            a{
+                
+            text-decoration: none;
+            &:link{
+                color:#004ca1;background-color:rgba(255, 255, 255, 0.5);
+            }
+
+
+            &:hover{
+                color:#004ca1;background-color:rgba(0,0,0,0.2);
+            }
+
+            }
+            
+        }
+    }
+    @media  (max-width: 1020px){
+        #menu{
+            font-size: 1.18vw;
+
+        }
+        @media (max-width:640px){
+
+        }
+    }
+}

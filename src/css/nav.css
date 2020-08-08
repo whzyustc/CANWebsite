@@ -1,0 +1,30 @@
+@media screen {
+  #menu {
+    width: 100%;
+    font-size: 12px;
+    height: 3em;
+  }
+  #menu li {
+    list-style: none;
+    display: block;
+    float: left;
+    height: 3em;
+    width: 12em;
+  }
+  #menu li a {
+    text-decoration: none;
+  }
+  #menu li a:link {
+    color: #004ca1;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  #menu li a:hover {
+    color: #004ca1;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+@media screen and (max-width: 1020px) {
+  #menu {
+    font-size: 1.18vw;
+  }
+}

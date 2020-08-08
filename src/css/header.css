@@ -1,37 +1,35 @@
-
-    #USTClogo{
-        width: 50%;
-        height: auto;
-        float: left;
-    }
-
-    #CANtitle{
-        width: 50%;
-        float: left;
-    }
-    @media screen and (max-width: 1020px){
-    
-        #USTClogo{
-            width: 50%;
-            height: auto;
-        }
-        
-    #CANtitle{
-        width: 50%;
-        float: left;
-    }
-    }
-    @media screen and (max-width: 640px){
-
-        #USTClogo{
-            width: 100%;
-            height: auto;
-        }
-        
-        #CANtitle{
-            width: 100%;
-            float: left;
-        }
-    
-    
-    }
+@media screen {
+  #USTClogo {
+    width: 40%;
+    height: auto;
+    float: left;
+    margin: 0 5% 0 5%;
+  }
+  #CANtitle {
+    width: 50%;
+    float: left;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  #CANtitle {
+    width: 50%;
+    font-size: 1.38vw;
+  }
+}
+@media screen and (max-width: 1020px) and (max-width: 640px) {
+  #USTClogo {
+    margin: 0 10% 0 10%;
+    width: 80%;
+    clear: both;
+  }
+  #CANtitle {
+    width: 100%;
+    font-size: 2vw;
+    clear: both;
+  }
+  #CANtitle h1 {
+    text-align: center;
+  }
+}
