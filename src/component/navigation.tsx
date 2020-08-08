@@ -1,7 +1,7 @@
 import React from "react"
 import '@css/nav.css'
-let menuTitles=['homepage','focus','publications','members','facilites','album'];
-let menuLinks=['index.html','focus.html','publications.html','members.html','facilites.html','album.html']
+let menuTitles=['homepage','focus','application','publications','members','facilites','album'];
+let menuLinks=['index.html','focus.html','application','publications.html','members.html','facilites.html','album.html']
 
 export default class Navigation extends React.Component{
     constructor(props:any){

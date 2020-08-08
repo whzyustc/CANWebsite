@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import Header from '@component/header';
 import Navigation from '@component/navigation';
 import './index.css'
-
+import Footer from "@component/footer";
 class MainPage extends React.Component{
     constructor(props:any){
         super(props);
@@ -14,6 +14,7 @@ class MainPage extends React.Component{
         return <>
             <Header />  
             <Navigation />
+            <Footer />
         </>
     }
 

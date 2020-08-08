@@ -1,8 +1,9 @@
 @media screen {
   body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     background-color: #cbffee;
-    font-size: 16px;
+    font-size: 12px;
   }
   #contain {
     background-color: aliceblue;
@@ -32,6 +33,7 @@
 }
 @media screen and (max-width: 1020px) {
   #contain {
+    font-size: 1.18vw;
     margin: auto;
     width: 100vw;
   }
@@ -41,7 +43,11 @@
 }
 @media screen and (max-width: 1020px) and (max-width: 640px) {
   #contain {
+    font-size: 7px;
     margin: atuo;
     width: 100vw;
+  }
+  nav {
+    margin: 0;
   }
 }
