@@ -1,3 +1,20 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~antd/dist/antd.less';
+
+@primary-color: #1890ff; // 全局主色
+@link-color: #1890ff; // 链接色
+@success-color: #52c41a; // 成功色
+@warning-color: #faad14; // 警告色
+@error-color: #f5222d; // 错误色
+@font-size-base: 14px; // 主字号
+@heading-color: rgba(0, 0, 0, 0.85); // 标题色
+@text-color: rgba(0, 0, 0, 0.65); // 主文本色
+@text-color-secondary: rgba(0, 0, 0, 0.45); // 次文本色
+@disabled-color: rgba(0, 0, 0, 0.25); // 失效色
+@border-radius-base: 2px; // 组件/浮层圆角
+@border-color-base: #d9d9d9; // 边框色
+@box-shadow-base: 0 3px 6px -4px rgba(0,0,0,.12),0 6px 16px 0 rgba(0,0,0,.08),0 9px 28px 8px rgba(0,0,0,.05); // 浮层阴影
+
 .clearfloat()
 {
     
@@ -7,55 +24,18 @@
     clear: both;
     visibility: hidden;
 }
-@media screen{
-    
-    body{
-        
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin: 0;
-        background-color: rgb(203, 255, 238);
-        font-size: 12px;
-    }
 
-        #contain{
-            background-color: aliceblue;
-            margin: auto;
-            width: 1020px;
-        }
-        header{
-            //overflow: auto;
-            margin: 0 0 1em 0;
-            &:after {
-                .clearfloat()
-            }
-        }
-        nav{
-            margin: 0 5% 1em 5%;
-            &:after {
-                .clearfloat()
-            }
-            
-        }
-    @media (max-width:1020px){
+.shadow1{
+    box-shadow: @box-shadow-base;
+}
 
-        #contain{
-            font-size: 1.18vw;
-            margin: auto;
-            width: 100vw;
-        }
-        header{
-            margin: 0 0 1em 0;
-        }
+.radiusborder{
+    border-radius: @border-radius-base;
+    border-color: @border-color-base;
+}
 
-        @media (max-width:640px) {
-            #contain{
-                font-size: 7px;
-                margin:atuo;
-                width: 100vw;
-            }
-            nav{
-                margin: 0;
-            }
-        }
-    }
+#USTClogo{
+    max-height: 40px;
+    margin: 10px 0 10px 0;
+    max-width: 200px;
 }

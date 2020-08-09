@@ -20,13 +20,45 @@ module.exports={
         alias:{
             '@component':path.resolve(__dirname,'src/component'),
             '@images':path.resolve(__dirname,'src/images'),
-            '@css':path.resolve(__dirname,'src/css')
+            '@css':path.resolve(__dirname,'src/css'),
+            'antd':path.resolve(__dirname,'node_modules/antd')
         },
         extensions:['.ts','.tsx','.js','.json']
     },
 
     module:{
         rules:[
+            {
+                test:/\.less$/,
+                use:[{
+                    loader:'style-loader',
+                },{
+                    loader:'css-loader',
+                },{
+                    loader:'less-loader',
+                    options:{
+                        lessOptions:{
+                            javascriptEnabled: true,
+                            // modifyVars:{
+                                
+                            //     "@primary-color": "#1890ff", // 全局主色
+                            //     "@link-color": "#1890ff", // 链接色
+                            //     "@success-color": "#52c41a", // 成功色
+                            //     "@warning-color": "#faad14", // 警告色
+                            //     "@error-color": "#f5222d", // 错误色
+                            //     "@font-size-base": "14px", // 主字号
+                            //     "@heading-color": "rgba(0, 0, 0, 0.85)", // 标题色
+                            //     "@text-color": "rgba(0, 0, 0, 0.65)", // 主文本色
+                            //     "@text-color-secondary": "rgba(0, 0, 0, 0.45)", // 次文本色
+                            //     "@disabled-color": "rgba(0, 0, 0, 0.25)", // 失效色
+                            //     "@border-radius-base": "2px", // 组"件/浮层圆角
+                            //     "@border-color-base": "rgba(138,23,21,1)", // 边框色
+                            //     "@box-shadow-base":"0 3px 6px -4px rgba(0,0,0,.12),0 6px 16px 0 rgba(0,0,0,.08),0 9px 28px 8px rgba(0,0,0,.05)" // 浮层阴影
+                            // }
+                        }
+                    }
+                }]
+            },
             {
                 //详细loader配置
                     test: /\.css$/,
