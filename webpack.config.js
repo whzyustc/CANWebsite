@@ -76,7 +76,8 @@ module.exports={
                         //图片大小小于8kb，会被base64处理
                         limit: 8 * 1024,
                         //esModule:false
-                        name:'[hash:10].[ext]'
+                        name:'[hash:10].[ext]',
+                        outputPath:'images/'
                     }
                 },
                 {

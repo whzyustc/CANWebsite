@@ -4,7 +4,7 @@ import { Layout, Menu } from 'antd';
 const { Header, Content, Footer, Sider } = Layout;
 import Logo from "@images/logo.png"
 import './index.less'
-import { Router, Route } from 'react-router';
+import { Router, Route ,Switch} from 'react-router';
 import { Link ,HashRouter} from "react-router-dom";
 
 import {Publications} from '@component/publications'
@@ -13,9 +13,8 @@ import {Facilities} from '@component/facilities'
 import {HomepageContent} from "@component/homepage";
 
 
-
 let menuTitles=['homepage','focus','application','publications','members','facilites','album'];
-let menuLinks=['','focus','application','publications','members','facilites','album']
+let menuLinks=['index','focus','application','publications','members','facilites','album']
 
 
 
@@ -27,7 +26,12 @@ ReactDOM.render(
 
       breakpoint="lg"
       collapsedWidth="0"
-      
+      // style={{
+      //   overflow: 'auto',
+      //   height: '100vh',
+      //   position: 'fixed',
+      //   left: 0,
+      // }} 
       onBreakpoint={(broken:any) => {
         console.log(broken);
       }}
@@ -42,7 +46,7 @@ ReactDOM.render(
         <Menu theme="light" mode="inline"   defaultSelectedKeys={['0']} >
           {menuTitles.map((value,index)=>(
             <Menu.Item key={index} id={value}>
-              <Link to={menuLinks[index]}>
+              <Link to={'/'+menuLinks[index]}>
                 {value.toUpperCase()}
               </Link>
             </Menu.Item>))}
@@ -50,7 +54,7 @@ ReactDOM.render(
         
         </HashRouter >
     </Sider>
-      <Layout>
+      <Layout className="site-layout" >
           
     <Header className="CAN shadow1" style={{ padding: 0}} >
         <h1 id="CANtitle" style={{textAlign:'center',color:"white"}}>Center of Advanced Nanocatalysis</h1>
@@ -59,13 +63,15 @@ ReactDOM.render(
 
         <Content style={{ margin: '24px 16px 0' }}>
           <HashRouter >
-            
-            <Route cache component={ HomepageContent } path="/index"/>
-            <Route component={ Publications } path="/publications"/>
-            <Route component={ Facilities } path="/publications"/>
-            <Route component={ Albums } path="/albums"/>
+            <Switch>
+            <Route exact component={ HomepageContent } path="/" />
+            <Route exact component={ HomepageContent } path="/index" />
+            <Route component={ Publications } path="/publications" />
+            <Route component={ Facilities } path="/facilities" />
+            <Route component={ Albums } path="/albums" />
             {/* <Route component={ Members } path="/members"/>
             <Route component={ Application } path="/application"/> */}
+            </Switch>
           </HashRouter>
         </Content>
 

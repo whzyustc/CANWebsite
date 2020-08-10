@@ -34,6 +34,64 @@
     border-color: @border-color-base;
 }
 
+.flexcard{
+    display: -webkit-flex ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+@media screen {
+
+    .pubimg{
+        width: 400px;
+        float: left;
+    }
+    
+    .infobox{
+        float: left;
+        width: 760px;
+        list-style: none;
+        line-height: 2em;
+        li{
+            padding: 1em 0 1em 0;
+        }
+        .no{
+            text-align: right;
+            color:@text-color-secondary;
+        }
+        padding: 0;
+        margin: 0;
+    }
+    @media (max-width:1000px)
+    {
+        .pubimg{
+            clear: both;
+            width: 400px;
+            margin: 0 auto 0 auto;
+        }
+        .infobox{
+            clear: both;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        @media (max-width:540px) {
+            .pubimg{
+                width: 100%;
+                margin:auto;
+            }
+            
+        }
+    }
+}
+
+.shadowhover:hover{
+    box-shadow: @box-shadow-base;
+}
+
 #USTClogo{
     max-height: 60px;
     max-width: 200px;

@@ -1,37 +1,47 @@
 import React from "react";
-import * as pubarr from './publicationInfo.json';
+import {Card} from 'antd'
+import * as pubObj from './publicationInfo.json';
 
-interface IPub{
+const pubArr=pubObj["default"];
+
+console.log(pubObj);
+// for (let i=0;i<pubArr.length;i++)
+// {
+//     if (!pubArr[i])
+//     pubArr
+// }
+pubArr.map((value:any,index:number)=>{
+    
+  pubArr[index].imgsrc=importimg(pubArr[index].imgsrc);
+})
+function importimg(name:string)
+{
+  //return require('@images/'+name);
+  return 'images/'+name;
+}
+
+export interface IPub{
     number:number;
     title:string;
-    imgsrc:string;
+    imgsrc:any;
     websrc:string;
     source:string;
     authors:string;
     abstruct?:string;
 }
 
-interface IPublications{
+export interface IPublications{
     arr:IPub[];
 }
-export class Publications extends React.Component<IPublications>{
-    constructor(props:IPublications)
+export class Publications extends React.Component{
+    constructor(props:any)
     {
         super(props);
-    }
-    pubgenerator(arr:any):any{
-        let ans=[];
-        for (let i in arr)
-        {
-            ans.push(<Publication key={i} {...arr[i]} />);
-        }
-        return ans;
     }
 
     render (){
         return <div className="publications">
-
-            {this.pubgenerator(pubarr)}
+            {pubArr.map((value:any,index:number)=><Publication key={index} {...value}></Publication>)}
         </div>
     }
 
@@ -44,15 +54,15 @@ export  class Publication extends React.Component<IPub>  {
     }
 
     render(){
-        return <div >
-            <img className={"img"} src={this.props.imgsrc}/>
-            <ul>
-                <li className={"title"}><a href={this.props.websrc}>{this.props.title}</a></li>
+        return <Card hoverable className="pubcard">
+            <img className={"pubimg"} src={this.props.imgsrc}/>
+            <ul className={"infobox"}>
+                <li className={"title"}><a href={this.props.websrc} target="blank">{this.props.title}</a></li>
 
                 <li className={"author"}>{this.props.authors}</li>
                 <li className={"source"}>{this.props.source}</li>
                 <li className="no">No.{this.props.number}</li>
             </ul>
-        </div>
+        </Card>
     }
 }
