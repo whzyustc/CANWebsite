@@ -2,21 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Layout, Menu } from 'antd';
 const { Header, Content, Footer, Sider } = Layout;
-import {blue,orange,grey} from '@ant-design/colors'
 import Logo from "@images/logo.png"
 import './index.less'
-import { Carousel } from 'antd';
+import { Router, Route } from 'react-router';
+import { Link ,HashRouter} from "react-router-dom";
 
-const contentStyle = {
-  height: '160px',
-  color: '#fff',
-  lineHeight: '160px',
-  //textAlign: 'center',
-  background: blue[7],
-};
+import {Publications} from '@component/publications'
+import {Albums} from '@component/albums'
+import {Facilities} from '@component/facilities'
+import {HomepageContent} from "@component/homepage";
+
+
 
 let menuTitles=['homepage','focus','application','publications','members','facilites','album'];
-let menuLinks=['index.html','focus.html','application','publications.html','members.html','facilites.html','album.html']
+let menuLinks=['','focus','application','publications','members','facilites','album']
+
 
 
 ReactDOM.render(
@@ -37,9 +37,18 @@ ReactDOM.render(
 
     >
         <img src={Logo} id="USTClogo" alt="USTC logo" />
+        
+        <HashRouter >
         <Menu theme="light" mode="inline"   defaultSelectedKeys={['0']} >
-          {menuTitles.map((value,index)=><Menu.Item key={index} id={value}><a href={menuLinks[index]} title={value}>{value.toUpperCase()}</a></Menu.Item>)}
+          {menuTitles.map((value,index)=>(
+            <Menu.Item key={index} id={value}>
+              <Link to={menuLinks[index]}>
+                {value.toUpperCase()}
+              </Link>
+            </Menu.Item>))}
         </Menu>
+        
+        </HashRouter >
     </Sider>
       <Layout>
           
@@ -49,17 +58,15 @@ ReactDOM.render(
 
 
         <Content style={{ margin: '24px 16px 0' }}>
-        <Carousel className="shadow1" autoplay>
-    <div>
-      <h3  style={contentStyle}></h3>
-    </div>
-    <div>
-      <h3  style={contentStyle}></h3>
-    </div>
-    <div>
-      <h3 style={contentStyle}></h3>
-    </div>
-  </Carousel>
+          <HashRouter >
+            
+            <Route cache component={ HomepageContent } path="/index"/>
+            <Route component={ Publications } path="/publications"/>
+            <Route component={ Facilities } path="/publications"/>
+            <Route component={ Albums } path="/albums"/>
+            {/* <Route component={ Members } path="/members"/>
+            <Route component={ Application } path="/application"/> */}
+          </HashRouter>
         </Content>
 
         
