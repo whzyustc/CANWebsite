@@ -1,0 +1,516 @@
+{
+    "postdoctor":[
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wj.png",
+      "name": "王晶",
+      "namepinyin": "Wang Jing",
+      "graduation": "Ph.D from University of Science and Technology of China",
+      "jointime": "2013 - now",
+      "email": "wj498@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/gx.png",
+      "name": "葛骁",
+      "namepinyin": "Ge Xiao",
+      "graduation": "Ph.D from University of Science and Technology of China",
+      "jointime": "2018 - now",
+      "email": "gexiao@ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/djy.png",
+      "name": "杜俊毅",
+      "namepinyin": "Du Junyi",
+      "graduation": "Ph.D from Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences",
+      "jointime": "2018 - now",
+      "email": "dujunyi2009@foxmail.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wzy.png",
+      "name": "王志远",
+      "namepinyin": "Wang Zhiyuan",
+      "graduation": "Ph.D from RWTH Aachen University",
+      "jointime": "2018 - now",
+      "email": "zhicungaoyuan0607@163.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/hyd.png",
+      "name": "胡宜栋",
+      "namepinyin": "Hu Yidong",
+      "graduation": "Ph.D from Harbin Institue of Technology",
+      "jointime": "2018 - now",
+      "email": "huyidongxl.26@163.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/xc.png",
+      "name": "熊灿",
+      "namepinyin": "Xiong Can",
+      "graduation": "Ph.D from HeFei University of Technology",
+      "jointime": "2018 - now",
+      "email": "15905696206@163.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/yangj.png",
+      "name": "杨佳",
+      "namepinyin": "Yang Jia",
+      "graduation": "Ph.D from University of Science and Technology of China",
+      "jointime": "2018 - now",
+      "email": "yj4368@ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zx.png",
+      "name": "周霄",
+      "namepinyin": "Zhou Xiao",
+      "graduation": "Ph.D from University of Science and Technology of China",
+      "jointime": "2018 - now",
+      "email": "zhoux08@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/yyc.png",
+      "name": "么艳彩",
+      "namepinyin": "Yao Yancai",
+      "graduation": "B.S. degree from Shanxi University",
+      "jointime": "2014 - now",
+      "email": "yyancai@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/liangk.png",
+      "name": "梁况",
+      "namepinyin": "Liang Kuang",
+      "graduation": "Ph.D from University of Science and Technology of China",
+      "jointime": "2019 - now",
+      "email": "liangkuang0914@gmail.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/ypq.png",
+      "name": "尹培群",
+      "namepinyin": "Yin Peiqun",
+      "graduation": "B.S. degree from Anqing Normal University",
+      "jointime": "2013 - 2017",
+      "email": "pqyin@mail.ustc.edu.cn"
+    }
+    ]
+    ,
+    "doctor":[
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wg.png",
+      "name": "吴耕",
+      "namepinyin": "Wu Geng",
+      "graduation": "B.S. degree from Hefei University of Technology",
+      "jointime": "2015 - now",
+      "email": "gengwu@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zh.png",
+      "name": "周煌",
+      "namepinyin": "Zhou Huang",
+      "graduation": "B.S. degree from Anhui University of Science and Technology",
+      "jointime": "2017 - now",
+      "email": "zhouhuang01@126.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zyf.png",
+      "name": "赵亚飞",
+      "namepinyin": "Zhao Yafei",
+      "graduation": "B.S. degree from Anqing Normal University",
+      "jointime": "2017 - now",
+      "email": "862320523@qq.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zcm.png",
+      "name": "赵长明",
+      "namepinyin": "Zhao Changming",
+      "graduation": "B.S. degree from Shaanxi Normal University",
+      "jointime": "2016 - now",
+      "email": "zhaocm@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zc.png",
+      "name": "赵超",
+      "namepinyin": "Zhao Chao",
+      "graduation": "B.S. degree from Shanxi University",
+      "jointime": "2016 - now",
+      "email": "1332411040@qq.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wxq.png",
+      "name": "王潇乾",
+      "namepinyin": "Wang Xiaoqian",
+      "graduation": "B.S. degree from University of Science and Technology of China",
+      "jointime": "2016 - now",
+      "email": "wxq94010@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zmz.png",
+      "name": "朱孟钊",
+      "namepinyin": "Zhu Mengzhao",
+      "graduation": "B.S. degree from Qingdao Agricultural University",
+      "jointime": "2017 - now",
+      "email": "1273500224@qq.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/xzg.png",
+      "name": "薛正刚",
+      "namepinyin": "Xue Zhenggang",
+      "graduation": "B.s. degree from Zhengzhou University",
+      "jointime": "2018 - now",
+      "email": "xuezhenggang1@163.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/ctt.png",
+      "name": "晁婷婷",
+      "namepinyin": "Chao Tingting",
+      "graduation": "B.S. degree from Xidian University",
+      "jointime": "2016 - now",
+      "email": "chaoting@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/hym.png",
+      "name": "胡严敏",
+      "namepinyin": "Hu Yanmin",
+      "graduation": "B.S. degree from Zhejiang University",
+      "jointime": "2016 - now",
+      "email": "erhujun@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zfy.png",
+      "name": "周方耀",
+      "namepinyin": "Zhou Fangyao",
+      "graduation": "B.S. degree from Anhui University",
+      "jointime": "2017 - now",
+      "email": "864755889@qq.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/srb.png",
+      "name": "孙荣博",
+      "namepinyin": "Sun Rongbo",
+      "graduation": "B.S. degree from Tianjin Polytechnic University",
+      "jointime": "2017 - now",
+      "email": "rongbsun@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/jbj.png",
+      "name": "晋本金",
+      "namepinyin": "Jin Benjin",
+      "graduation": "B.S. degree from Ocean University of China",
+      "jointime": "2017 - now",
+      "email": "genjin@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wwy.png",
+      "name": "王文玉",
+      "namepinyin": "Wang Wenyu",
+      "graduation": "B.S. degree from Zhengzhou University",
+      "jointime": "2017 - now",
+      "email": "wwenyu@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/lrl.png",
+      "name": "李瑞龙",
+      "namepinyin": "Li Ruilong",
+      "graduation": "B.S. degree from Zhengzhou University",
+      "jointime": "2017 - now",
+      "email": "zzuliruilong@163.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zhaoy.png",
+      "name": "赵悦",
+      "namepinyin": "Zhao Yue",
+      "graduation": "Ph.D from Shandong University",
+      "jointime": "2019 - now",
+      "email": "zyshine@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wanglx.png",
+      "name": "王令骁",
+      "namepinyin": "Wang Lingxiao",
+      "graduation": "Master from Nanjing Tech University",
+      "jointime": "2019 - now",
+      "email": "lxwang46@mail.ustc.edu.cn"
+    }
+    ],
+
+    "postgraduate":[
+        {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/cm.png",
+      "name": "陈敏",
+      "namepinyin": "Chen Min",
+      "graduation": "B.S. degree from China University Of Petroleum(Beijing)",
+      "jointime": "2017 - now",
+      "email": "cm666@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zhr.png",
+      "name": "张浩然",
+      "namepinyin": "Zhang Haoran",
+      "graduation": "B.S. degree from University of Science and Technology of China",
+      "jointime": "2016 - now",
+      "email": "zhr8206@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zz.png",
+      "name": "赵叙言",
+      "namepinyin": "Zhao Xuyan",
+      "graduation": "B.S. degree from University of Science and Technology of China",
+      "jointime": "2016 - now",
+      "email": "photo219@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zy.png",
+      "name": "章焱",
+      "namepinyin": "Zhang Yan",
+      "graduation": "B.S. degree from University of Science and Technology of China",
+      "jointime": "2016 - now",
+      "email": "whzy@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/ymy.png",
+      "name": "颜牧雨",
+      "namepinyin": "Yan Muyu",
+      "graduation": "B.S. degree from Beijing Jiaotong University",
+      "jointime": "2018 - now",
+      "email": "myyan@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/hanx.png",
+      "name": "韩霄",
+      "namepinyin": "Han Xiao",
+      "graduation": "B.S. degree from Beijing Jiaotong University",
+      "jointime": "2018 - now",
+      "email": "xhan@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/lpg.png",
+      "name": "刘培根",
+      "namepinyin": "Liu Peigen",
+      "graduation": "B.S. degree from Anhui Normal University",
+      "jointime": "2018 - now",
+      "email": "liupg@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/gwx.png",
+      "name": "国文馨",
+      "namepinyin": "Guo Wenxin",
+      "graduation": "B.S. degree from Guangxi University",
+      "jointime": "2018 - now",
+      "email": "guowx@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wqp.png",
+      "name": "王秋萍",
+      "namepinyin": "Wang Qiuping",
+      "graduation": "B.S. degree from Guangxi University",
+      "jointime": "2018 - now",
+      "email": "qpwang@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/chenc.png",
+      "name": "陈材",
+      "namepinyin": "Chen Cai",
+      "graduation": "B.S. degree from Southwest Petroleum University",
+      "jointime": "2019 - now",
+      "email": "cc.chencai@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/lp.png",
+      "name": "李鹏",
+      "namepinyin": "Li Peng",
+      "graduation": "Studying in University of Science and Technology of China",
+      "jointime": "2017 - now",
+      "email": "plxtf@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/yug.png",
+      "name": "余格",
+      "namepinyin": "Yu Ge",
+      "graduation": "B.S. degree from Anqing Normal University",
+      "jointime": "2019 - now",
+      "email": "yg2019@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/macr.png",
+      "name": "马春容",
+      "namepinyin": "Ma Chunrong",
+      "graduation": "B.S. degree from East China Normal University",
+      "jointime": "2019 - now",
+      "email": "macr@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/songj.png",
+      "name": "宋佳",
+      "namepinyin": "Song Jia",
+      "graduation": "B.S. degree from Soochow University",
+      "jointime": "2019 - now",
+      "email": "songjia@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/lidm.png",
+      "name": "李德铭",
+      "namepinyin": "Li Deming",
+      "graduation": "B.S. degree from Henan Normal University",
+      "jointime": "2019 - now",
+      "email": "lidm0625@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wub.png",
+      "name": "吴蓓",
+      "namepinyin": "Wu Bei",
+      "graduation": "B.S. degree from Soochow University",
+      "jointime": "2019 - now",
+      "email": "beiwu@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/tany.png",
+      "name": "谭毅",
+      "namepinyin": "Tan Yi",
+      "graduation": "B.S. degree from University of Science and Technology of China",
+      "jointime": "2018 - now",
+      "email": "tyasdfgh@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/tianl.png",
+      "name": "田琳",
+      "namepinyin": "Tian Lin",
+      "graduation": "B.S. degree from Hua Zhong University of science and technology",
+      "jointime": "2018 - now",
+      "email": "lintian@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/tyj.png",
+      "name": "童宇靖",
+      "namepinyin": "Tong Yujing",
+      "graduation": "Studying in University of Science and Technology of China",
+      "jointime": "2018 - now",
+      "email": "tyj98@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/lhw.png",
+      "name": "吕宏伟",
+      "namepinyin": "Lü Hongwei",
+      "graduation": "Studying in University of Science and Technology of China",
+      "jointime": "2018 - now",
+      "email": "lvhw@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wuf.png",
+      "name": "吴峰",
+      "namepinyin": "Wu Feng",
+      "graduation": "Studying in University of Science and Technology of China",
+      "jointime": "2018 - now",
+      "email": "crabwu22@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wangsq.png",
+      "name": "王世琦",
+      "namepinyin": "Wang Shiqi",
+      "graduation": "Studying in University of Science and Technology of China",
+      "jointime": "2018 - now",
+      "email": "wsq1227@mail.ustc.edu.cn"
+    }
+    ],
+    "alumni":[
+        {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zzz.png",
+      "name": "祝泽周",
+      "namepinyin": "Zhu Zezhou",
+      "graduation": "Master degree from Fuzhou University",
+      "jointime": "2018 - now",
+      "email": "zzzhu@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wdh.png",
+      "name": "王德花",
+      "namepinyin": "Wang Dehua",
+      "graduation": "Ph.D from Dalian Institute of Chemical Physics, Chinese Academy of Sciences",
+      "jointime": "2016 - 2018",
+      "email": "dhwang@ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/gjj.png",
+      "name": "葛婧捷",
+      "namepinyin": "Ge Jingjie",
+      "graduation": "B.S. degree from Tianjin Polytechnic University",
+      "jointime": "2013 - 2018",
+      "email": "gjj19043@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/dxy.png",
+      "name": "戴心尧",
+      "namepinyin": "Dai Xinyao",
+      "graduation": "B.S. degree from University of Science and Technology of China",
+      "jointime": "2015 - 2018",
+      "email": "hpqwlx@gmail.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/cxy.png",
+      "name": "曹翔宇",
+      "namepinyin": "Cao Xiangyu",
+      "graduation": "B.S. degree from University of Science and Technology of China",
+      "jointime": "2016 - 2018",
+      "email": "ERICA066@@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/qyt.png",
+      "name": "屈云腾",
+      "namepinyin": "Qu Yunteng",
+      "graduation": "Ph.D from Harbin Institue of Technology",
+      "jointime": "2017 - now",
+      "email": "quyunteng@126.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wx.png",
+      "name": "王欣",
+      "namepinyin": "Wang Xin",
+      "graduation": "B.S. degree from Anhui University",
+      "jointime": "2014 - 2019",
+      "email": "xinw@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/ytw.png",
+      "name": "袁同伟",
+      "namepinyin": "Yuan Tongwei",
+      "graduation": "B.S. degree from Shanghai University",
+      "jointime": "2017 - 2019",
+      "email": "94365261@qq.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/yj.png",
+      "name": "杨健",
+      "namepinyin": "Yang Jian",
+      "graduation": "B.S. degree from Anhui Jianzhu University",
+      "jointime": "2014 - 2019",
+      "email": "yang520@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/lyq.png",
+      "name": "骆亦琦",
+      "namepinyin": "Luo Yiqi",
+      "graduation": "B.S. degree from University of Science and Technology of China",
+      "jointime": "2015 - 2019",
+      "email": "luoyiqi@mail.ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/lzj.png",
+      "name": "李智君",
+      "namepinyin": "Li Zhijun",
+      "graduation": "Ph.D from Queen's University",
+      "jointime": "2017 - now",
+      "email": "zjli2017@ustc.edu.cn"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zq.png",
+      "name": "周奇",
+      "namepinyin": "Zhou Qi",
+      "graduation": "Ph.D from China University of Geosciences",
+      "jointime": "2017 - now",
+      "email": "roundzking@163.com"
+    },
+    {
+      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/yzk.png",
+      "name": "杨正坤",
+      "namepinyin": "Yang Zhengkun",
+      "graduation": "Ph.D from University of Science and Technology of China",
+      "jointime": "2017 - now",
+      "email": "yangzk@ustc.edu.cn"
+    }
+  ]
+}

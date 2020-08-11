@@ -36,15 +36,12 @@
 
 .albumrow{
     min-width: 300px;
+    margin-bottom: 2em;
 
     img{
-        &:hover{
-            box-shadow: @shadow-1-down;
-        }
         max-width:100%;
     }
 }
-
 .flexcard{
     display: -webkit-flex ;
     display: flex;
@@ -56,9 +53,35 @@
 
 @media screen {
 
+    .album{
+        margin-bottom: 2em;
+    }
+    .facilitiespage{
+        margin-bottom: 2em;
+    }
+
+    .memberpage{
+        margin-bottom: 2em ;
+    }
+    .membercol{
+        margin: auto;
+        min-width: 300px;
+        img{
+            max-width: 200px;
+            margin: auto;
+        }
+        ul{
+            padding: 0;
+            list-style: none;
+
+        }
+    }
+    
+
     .pubimg{
         width: 400px;
         float: left;
+        margin-right: 2em ;
     }
     
     .infobox{

@@ -11,10 +11,13 @@ import {Publications} from '@component/publications'
 import {Albums} from '@component/albums'
 import {Facilities} from '@component/facilities'
 import {HomepageContent} from "@component/homepage";
+import {Members} from '@component/members'
+import {Application} from "@component/application";
+import {Focus  } from "@component/focus";
 
 
-let menuTitles=['homepage','focus','application','publications','members','facilites','albums'];
-let menuLinks=['index','focus','application','publications','members','facilites','albums']
+let menuTitles=['homepage','focus','application','publications','members','facilities','albums'];
+let menuLinks=['index','focus','application','publications','members','facilities','albums']
 
 
 
@@ -66,11 +69,12 @@ ReactDOM.render(
             <Switch>
             <Route exact component={ HomepageContent } path="/" />
             <Route exact component={ HomepageContent } path="/index" />
+            <Route component={ Focus } path="/focus"/>
             <Route component={ Publications } path="/publications" />
             <Route component={ Facilities } path="/facilities" />
             <Route component={ Albums } path="/albums" />
-            {/* <Route component={ Members } path="/members"/>
-            <Route component={ Application } path="/application"/> */}
+            <Route component={ Members } path="/members"/>
+            <Route component={ Application } path="/application"/>
             </Switch>
           </HashRouter>
         </Content>

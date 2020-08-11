@@ -1,15 +1,11 @@
 import React from "react";
-import {Card} from 'antd'
+import {Card,Divider} from 'antd'
 import * as pubObj from './publicationInfo.json';
 
 const pubArr=pubObj["default"];
 
 console.log(pubObj);
-// for (let i=0;i<pubArr.length;i++)
-// {
-//     if (!pubArr[i])
-//     pubArr
-// }
+
 pubArr.map((value:any,index:number)=>{
     
   pubArr[index].imgsrc=importimg(pubArr[index].imgsrc);
@@ -40,9 +36,13 @@ export class Publications extends React.Component{
     }
 
     render (){
-        return <div className="publications">
+        return (
+         <>   
+         
+            <Divider orientation="left">Publications</Divider>
             {pubArr.map((value:any,index:number)=><Publication key={index} {...value}></Publication>)}
-        </div>
+        </>
+        )
     }
 
 }
@@ -54,7 +54,8 @@ export  class Publication extends React.Component<IPub>  {
     }
 
     render(){
-        return <Card hoverable className="pubcard" style={{margin:"1em 0 1em 0"}}>
+        return (
+        <Card hoverable className="pubcard" style={{margin:"1em 0 1em 0"}}>
             <img className={"pubimg"} src={this.props.imgsrc}/>
             <ul className={"infobox"}>
                 <li className={"title"}><a href={this.props.websrc} target="blank">{this.props.title}</a></li>
@@ -64,5 +65,6 @@ export  class Publication extends React.Component<IPub>  {
                 <li className="no">No.{this.props.number}</li>
             </ul>
         </Card>
+        )
     }
 }
