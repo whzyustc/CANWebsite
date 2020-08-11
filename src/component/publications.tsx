@@ -54,7 +54,7 @@ export  class Publication extends React.Component<IPub>  {
     }
 
     render(){
-        return <Card hoverable className="pubcard">
+        return <Card hoverable className="pubcard" style={{margin:"1em 0 1em 0"}}>
             <img className={"pubimg"} src={this.props.imgsrc}/>
             <ul className={"infobox"}>
                 <li className={"title"}><a href={this.props.websrc} target="blank">{this.props.title}</a></li>

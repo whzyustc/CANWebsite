@@ -13,8 +13,8 @@ import {Facilities} from '@component/facilities'
 import {HomepageContent} from "@component/homepage";
 
 
-let menuTitles=['homepage','focus','application','publications','members','facilites','album'];
-let menuLinks=['index','focus','application','publications','members','facilites','album']
+let menuTitles=['homepage','focus','application','publications','members','facilites','albums'];
+let menuLinks=['index','focus','application','publications','members','facilites','albums']
 
 
 
