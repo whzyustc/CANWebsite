@@ -18,9 +18,9 @@ export class HomepageContent extends React.Component{
         <Divider orientation="left">HomePage</Divider>
         <Carousel className="homepagecarousel" dots={true}  arrows={true} autoplay>
 
-          <Card hoverable className="carouselcard" cover={<div><img src="images/indexfocus1.png" alt="indexfoucus1"/></div>} ><Meta style={{textAlign:"center"}} title="发展精准合成方法学" description="Development of precise synthetic methodology"></Meta></Card>
-          <Card hoverable className="carouselcard" cover={<div><img src="images/indexfocus2.png" alt="indexfoucus2"/></div>} ><Meta style={{textAlign:"center"}} title="深度揭示催化机理" description="In-depth understanding of catalytic mechanism"></Meta></Card>
-          <Card hoverable className="carouselcard2" cover={<div><img src="images/indexfocus3.png" alt="indexfoucus3"/></div>} ><Meta style={{textAlign:"center"}} title="高效催化应用探索" description="Exploration of efficient catalytic systems"></Meta></Card>
+          <Card hoverable className="carouselcard" cover={<div className="carouselimgbox"><img src="images/indexfocus1.png" alt="indexfoucus1"/></div>} ><Meta style={{textAlign:"center"}} title="发展精准合成方法学" description="Development of precise synthetic methodology"></Meta></Card>
+          <Card hoverable className="carouselcard" cover={<div className="carouselimgbox"><img src="images/indexfocus2.png" alt="indexfoucus2"/></div>} ><Meta style={{textAlign:"center"}} title="深度揭示催化机理" description="In-depth understanding of catalytic mechanism"></Meta></Card>
+          <Card hoverable className="carouselcard2" cover={<div className="carouselimgbox"><img src="images/indexfocus3.png" alt="indexfoucus3"/></div>} ><Meta style={{textAlign:"center"}} title="高效催化应用探索" description="Exploration of efficient catalytic systems"></Meta></Card>
           
           
          </Carousel>
