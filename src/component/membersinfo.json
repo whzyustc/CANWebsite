@@ -226,26 +226,57 @@
       "graduation": "Master from Nanjing Tech University",
       "jointime": "2019 - now",
       "email": "lxwang46@mail.ustc.edu.cn"
-    }
+    },
+    {
+  "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/cm.png",
+  "name": "陈敏",
+  "namepinyin": "Chen Min",
+  "graduation": "B.S. degree from China University Of Petroleum(Beijing)",
+  "jointime": "2017 - now",
+  "email": "cm666@mail.ustc.edu.cn"
+},
+{
+  "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zhr.png",
+  "name": "张浩然",
+  "namepinyin": "Zhang Haoran",
+  "graduation": "B.S. degree from University of Science and Technology of China",
+  "jointime": "2016 - now",
+  "email": "zhr8206@mail.ustc.edu.cn"
+},{
+  "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/hanx.png",
+  "name": "韩霄",
+  "namepinyin": "Han Xiao",
+  "graduation": "B.S. degree from Beijing Jiaotong University",
+  "jointime": "2018 - now",
+  "email": "xhan@mail.ustc.edu.cn"
+},
+{
+  "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/lpg.png",
+  "name": "刘培根",
+  "namepinyin": "Liu Peigen",
+  "graduation": "B.S. degree from Anhui Normal University",
+  "jointime": "2018 - now",
+  "email": "liupg@mail.ustc.edu.cn"
+},
+{
+  "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/gwx.png",
+  "name": "国文馨",
+  "namepinyin": "Guo Wenxin",
+  "graduation": "B.S. degree from Guangxi University",
+  "jointime": "2018 - now",
+  "email": "guowx@mail.ustc.edu.cn"
+},
+{
+  "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wqp.png",
+  "name": "王秋萍",
+  "namepinyin": "Wang Qiuping",
+  "graduation": "B.S. degree from Guangxi University",
+  "jointime": "2018 - now",
+  "email": "qpwang@mail.ustc.edu.cn"
+}
     ],
 
     "postgraduate":[
-        {
-      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/cm.png",
-      "name": "陈敏",
-      "namepinyin": "Chen Min",
-      "graduation": "B.S. degree from China University Of Petroleum(Beijing)",
-      "jointime": "2017 - now",
-      "email": "cm666@mail.ustc.edu.cn"
-    },
-    {
-      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zhr.png",
-      "name": "张浩然",
-      "namepinyin": "Zhang Haoran",
-      "graduation": "B.S. degree from University of Science and Technology of China",
-      "jointime": "2016 - now",
-      "email": "zhr8206@mail.ustc.edu.cn"
-    },
     {
       "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/zz.png",
       "name": "赵叙言",
@@ -270,38 +301,7 @@
       "jointime": "2018 - now",
       "email": "myyan@mail.ustc.edu.cn"
     },
-    {
-      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/hanx.png",
-      "name": "韩霄",
-      "namepinyin": "Han Xiao",
-      "graduation": "B.S. degree from Beijing Jiaotong University",
-      "jointime": "2018 - now",
-      "email": "xhan@mail.ustc.edu.cn"
-    },
-    {
-      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/lpg.png",
-      "name": "刘培根",
-      "namepinyin": "Liu Peigen",
-      "graduation": "B.S. degree from Anhui Normal University",
-      "jointime": "2018 - now",
-      "email": "liupg@mail.ustc.edu.cn"
-    },
-    {
-      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/gwx.png",
-      "name": "国文馨",
-      "namepinyin": "Guo Wenxin",
-      "graduation": "B.S. degree from Guangxi University",
-      "jointime": "2018 - now",
-      "email": "guowx@mail.ustc.edu.cn"
-    },
-    {
-      "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/wqp.png",
-      "name": "王秋萍",
-      "namepinyin": "Wang Qiuping",
-      "graduation": "B.S. degree from Guangxi University",
-      "jointime": "2018 - now",
-      "email": "qpwang@mail.ustc.edu.cn"
-    },
+    
     {
       "imgsrc": "file:///C:/Users/whzyz/source/CANWebsite/dist/images/chenc.png",
       "name": "陈材",

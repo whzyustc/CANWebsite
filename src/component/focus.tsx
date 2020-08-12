@@ -10,7 +10,7 @@ export class Focus extends React.Component{
 
     render (){
     return (<>
-    <Divider orientation="left">Focus</Divider>
+        <Divider orientation="left">Focus</Divider>
         <Card hoverable cover={<img src="images/focus1.png" />}></Card>
         <Card hoverable cover={<img src="images/focus2.png" />}></Card>
         <Card hoverable cover={<img src="images/focus3.png" />}></Card>
