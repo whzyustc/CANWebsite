@@ -1,5 +1,13 @@
 [
   {
+    "imgsrc": "202011.png",
+    "websrc": "https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.202001863",
+    "title": "2D PbS nanosheets with zigzag edges for efficient CO2 photoconversion",
+    "authors": "Yuen Wu*, Zezhou Zhu, Yunteng Qu, Zhiyuan Wang, Fangyao Zhou, Changming Zhao, Yue Lin, Liqiang Li, Yagang Yao",
+    "source": "Chem. Eur. J. 10.1002/chem.202001863",
+    "number": 74
+  },
+  {
     "imgsrc": "202010.png",
     "websrc": "https://pubs.acs.org/doi/abs/10.1021/jacs.0c03415",
     "title": "Cation-Exchange Induced Precise Regulation of Single Copper Site Triggers Room-Temperature Oxidation of Benzene",
@@ -19,7 +27,7 @@
     "imgsrc": "202008.png",
     "websrc": "http://engine.scichina.com/publisher/scp/journal/SCC/doi/10.1007/s11426-020-9803-5?slug=abstract",
     "title": "Formic acid oxidation by iridium single-atom catalyst on nitrogen-doped carbon",
-    "authors": "Zhou Huang , Wu Yuen",
+    "authors": "Zhou Huang, Wu Yuen",
     "source": "Science China Chemistry",
     "number": 71
   },

@@ -39,7 +39,7 @@ export class HomepageContent extends React.Component{
                 <li>Tel:  <a href="tel:0551-63601600">0551-63601600 (work)</a></li>
                 <li><a href="mailto:yuenwu@ustc.edu.cn">E-mail: yuenwu@ustc.edu.cn</a> </li>
                 <li>96 Jinzhai Road, Hefei, Anhui 230026, P.R. China </li>
-                <li><a href="www.linkaway.com">www.linkaway.com</a></li>
+                <li><a href="http://www.linkeway.com">www.linkeway.com</a></li>
 
                 {/* <li><img src="images/hx.png" title="hongxun">Xun Hong</li>
                 <li>Tel: +86-13966670058(Cell); 0551-63601600 (work)</li>

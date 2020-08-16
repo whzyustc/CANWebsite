@@ -11,7 +11,7 @@ export class Application extends React.Component{
     render (){
     return (<>
         <Divider orientation="left">Application :
-        <Link to={"www.linkeway.com"} >www.linkeway.com</Link></Divider>
+        <a href={"http://www.linkeway.com"} >www.linkeway.com</a></Divider>
         <Card hoverable cover={<img src="images/nongye.png" />}></Card>
         <Card hoverable cover={<img src="images/nengyuan.png" />}></Card>
         <Card hoverable cover={<img src="images/yiliao.png" />}></Card>
