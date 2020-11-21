@@ -1,43 +1,43 @@
-const path=require('path');
+const path = require('path');
 
-const HtmlWebpackPlugin =require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports={
-    entry:{
-        index:"./src/pages/index/index.tsx",
+module.exports = {
+    entry: {
+        index: "./src/pages/index/index.tsx",
     },
 
 
-    output:{
-        filename:"[name].js",
-        path:path.resolve(__dirname,'dist')
+    output: {
+        filename: "[name].js",
+        path: path.resolve(__dirname, 'dist')
     },
 
-    devtool:'source-map',
+    devtool: 'source-map',
 
-    resolve:{
-        modules:["node_modules"],
-        alias:{
-            '@component':path.resolve(__dirname,'src/component'),
-            '@images':path.resolve(__dirname,'src/images'),
-            '@css':path.resolve(__dirname,'src/css'),
-            'antd':path.resolve(__dirname,'node_modules/antd')
+    resolve: {
+        modules: ["node_modules"],
+        alias: {
+            '@component': path.resolve(__dirname, 'src/component'),
+            '@images': path.resolve(__dirname, 'src/images'),
+            '@css': path.resolve(__dirname, 'src/css'),
+            'antd': path.resolve(__dirname, 'node_modules/antd')
         },
-        extensions:['.ts','.tsx','.js','.json']
+        extensions: ['.ts', '.tsx', '.js', '.json']
     },
 
-    module:{
-        rules:[
+    module: {
+        rules: [
             {
-                test:/\.less$/,
-                use:[{
-                    loader:'style-loader',
-                },{
-                    loader:'css-loader',
-                },{
-                    loader:'less-loader',
-                    options:{
-                        lessOptions:{
+                test: /\.less$/,
+                use: [{
+                    loader: 'style-loader',
+                }, {
+                    loader: 'css-loader',
+                }, {
+                    loader: 'less-loader',
+                    options: {
+                        lessOptions: {
                             javascriptEnabled: true,
                         }
                     }
@@ -45,36 +45,36 @@ module.exports={
             },
             {
                 //详细loader配置
-                    test: /\.css$/,
-                    use:[
-                        //use执行顺序从后往前
+                test: /\.css$/,
+                use: [
+                    //use执行顺序从后往前
                     //创建style标签，将js中的样式插入添加到head
-                        'style-loader',
-                        //将css文件编程commonjs模块加载到js中，内容为样式字符串
-                        'css-loader'
-                    ]
-                },{
-                    test:/\.(jpg|png|gif)$/,
-                    loader:'url-loader',
-                    options:{
-                        //图片大小小于8kb，会被base64处理
-                        limit: 8 * 1024,
-                        //esModule:false
-                        name:'[hash:10].[ext]',
-                        outputPath:'images/'
-                    }
-                },
-                {
-                    test:/\.html$/,
-                    loader:'html-loader'
-    
-                },
+                    'style-loader',
+                    //将css文件编程commonjs模块加载到js中，内容为样式字符串
+                    'css-loader'
+                ]
+            }, {
+                test: /\.(jpg|png|gif)$/,
+                loader: 'url-loader',
+                options: {
+                    //图片大小小于8kb，会被base64处理
+                    limit: 8 * 1024,
+                    //esModule:false
+                    name: '[hash:10].[ext]',
+                    outputPath: 'images/'
+                }
+            },
             {
-                test:/\.tsx?$/,loader:"awesome-typescript-loader"
+                test: /\.html$/,
+                loader: 'html-loader'
+
+            },
+            {
+                test: /\.tsx?$/, loader: "awesome-typescript-loader"
             },
 
             {
-                enforce:"pre",test:/\.js$/,loader:"source-map-loader"
+                enforce: "pre", test: /\.js$/, loader: "source-map-loader"
             }
         ]
     },
@@ -85,18 +85,19 @@ module.exports={
     // },
 
     mode: 'production',
-    
-    
-    plugins:[
+    //mode: 'development',
+
+
+    plugins: [
         //详细plugins配置
         new HtmlWebpackPlugin({
-            title:'index',
-            filename:'index.html',
-            template:"./src/pages/index/index.html",
-            chunks:['index']
-            
+            title: 'index',
+            filename: 'index.html',
+            template: "./src/pages/index/index.html",
+            chunks: ['index']
+
         })
-        
+
         // new HtmlWebpackPlugin({
         //     title:'Login',
         //     filename:'login.html',
@@ -105,15 +106,15 @@ module.exports={
         // })
     ],
 
-    devServer:{
-        contentBase:path.resolve(__dirname,'dist'),
-        compress:true,
-        port:3000,
-        open:true,
-        hot:true,
-        overlay:true,
+    devServer: {
+        contentBase: path.resolve(__dirname, 'dist'),
+        compress: true,
+        port: 3000,
+        open: true,
+        hot: true,
+        overlay: true,
         //host:"0.0.0.0",
-        index:"./index.html"
+        index: "./index.html"
 
     }
 
